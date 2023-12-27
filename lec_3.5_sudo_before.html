@@ -4,29 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Before After</title>
-    <link rel="stylesheet" href="F:\Web Development\FirstWebSite\rakib.jpg">
+    <link rel="website" type="jpg" href="rakib.jpg">
+
     <style>
         h1::before{
-            content: "Hello ";
-            color:burlywood;
+            content: "'Hello' ";
+            color:rgb(246, 181, 96);
             background-color: cornflowerblue;
         }
+        .Change::before{
+            content: "❤️";
+        }
+        #ID1::before{
+            content: "💖";
+        }
         .special-effect::after{
-            content: " bye";
+            content: " Thank you";
+            color: aqua;
+        }
+        #ID1::after{
+            content: " Thank You KING";
+            color:brown;
+        }
+        #ID1{
+            color: blue;
+        }
+        p::before{
+            content: "❤️";
         }
     </style>
 </head>
 <body>
-    <h1>sudo before after:</h1>
+    <!--sudo class e akta colone r 
+        sudo element er duita colone
+        content mane ki add krte chai-->
+    <h1 class="Change">sudo before after:</h1>
     <h1 class="special-effect">Rakib</h1>
-    <h1>Ruma</h1>
-    <h1>Rimmy</h1>
-    <ul>
-        <li>Abul</li>
-        <li>Babul</li>
-        <li>Cabul</li>
-        <li>Dabul</li>
-        <li>Habul</li>
-    </ul>
+    <h1 id="ID1">Azmain Habib Nafieu</h1>
+    <h1 class="Change">Ruma</h1>
+    <h1 class="Change">Rimmy</h1>
+    
+        <p>Abul</p>
+        <p>Babul</p>
+        <p>Cabul</p>
+        <p>Dabul</p>
+        <p>Habul</p>
+     
 </body>
 </html>
